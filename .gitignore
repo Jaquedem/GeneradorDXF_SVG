@@ -1,0 +1,46 @@
+# --- PYTHON BÁSICO ---
+# Archivos compilados (bytecodes) que genera Python automáticamente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- ENTORNOS VIRTUALES (¡Súper Importante!) ---
+# Nunca subas esto, cada usuario debe crear su propio venv
+venv/
+env/
+.venv/
+.env
+
+# --- CONFIGURACIONES DE IDE ---
+# Carpetas de configuración de usuario de VS Code o PyCharm
+.vscode/
+.idea/
+
+# --- ARCHIVOS GENERADOS (OUTPUTS) ---
+# Ignoramos los resultados para no ensuciar el historial
+# Si quieres subir un ejemplo, mejor mételo en una carpeta "ejemplos"
+*.svg
+*.dxf
+*.dwg
+*.stl
+
+# --- IMÁGENES Y TEMPORALES ---
+# Imágenes de depuración que generan tus scripts
+debug_*.jpg
+debug_*.png
+
+# Imágenes de entrada (Opcional: Descomenta si NO quieres subir tus fotos prueba)
+# *.jpg
+# *.png
+# *.jpeg
+
+# --- SISTEMA OPERATIVO ---
+# Archivos basura de Windows o Mac
+Thumbs.db
+.DS_Store
+
+# --- EXCEPCIONES ---
+# Si decides crear una carpeta para mostrar ejemplos, dile a git que NO la ignore
+!ejemplos/
+!assets/
